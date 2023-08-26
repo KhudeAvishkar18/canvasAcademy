@@ -1,0 +1,261 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    background-image: url('media/college.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -1;
+
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+
+/* Navbar */
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 4%;
+}
+
+#navbarSupportedContent {
+    text-align: center;
+}
+
+.nav-item {
+    margin: auto 30px;
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    color: rgb(2, 7, 110);
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    color: white;
+}
+
+nav button {
+    background-color: black;
+}
+
+.logo {
+    width: 100px;
+    height: 60px;
+}
+
+
+.welcome {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    /* text-align: center; */
+    /* color: rgb(4, 171, 171); */
+    color: cyan;
+    margin: 40px 0px;
+    height: 700px;
+    width: 60%;
+}
+
+.welcome h1 {
+    padding-top: 10%;
+    padding-left: 5%;
+    font-size: 8rem;
+    text-shadow: 5px 5px black;
+}
+
+.courses {
+    margin: auto;
+}
+
+/* Carousels */
+
+#testimonials {
+    background-color: rgb(220, 244, 244);
+    text-align: center;
+    padding-top: 8%;
+    height: 400px;
+
+}
+
+.carousel {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height: 150px;
+    color: black;
+    /* padding: 10px; */
+}
+
+.carousel h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0% 5%;
+}
+
+.carousel-control-next-icon {
+    background-color: rgb(190, 227, 227);
+}
+
+.carousel-control-prev-icon {
+    background-color: rgb(190, 227, 227);
+}
+
+/* section starts here  */
+
+#material {
+    padding-top: 35px;
+}
+
+.subheading {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: wheat; */
+    justify-content: space-evenly;
+    margin: 30px 0px;
+    object-fit: cover;
+}
+
+.videos {
+    height: 200px;
+    width: 25%;
+    margin: 20px;
+}
+
+.fac {
+    display: inline-block;
+    /* height: 90px; */
+    width: 140px;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.faculties {
+    background-color: rgb(220, 244, 244);
+    text-align: center;
+    padding: 50px;
+}
+
+.faculties img {
+    height: 100px;
+    width: 100px;
+}
+
+#footer {
+    /* height: 50px; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#footer img {
+    height: 40px;
+    width: 40px;
+}
+
+#footer a {
+    margin: 3px;
+    color: black;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1310px) {
+    .welcome h1 {
+        font-size: 6rem;
+    }
+
+    .welcome {
+        height: 500px;
+    }
+
+}
+
+@media screen and (max-width:990px) {
+
+    .navbar-nav {
+        background-color: black;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .welcome h1 {
+        font-size: 5rem;
+    }
+
+    .welcome {
+        height: 400px;
+    }
+
+    #testimonials {
+        height: 300px;
+        padding-top: 6%;
+
+    }
+}
+
+@media screen and (max-width:840px) {
+    .welcome h1 {
+        font-size: 4rem;
+    }
+
+    .welcome {
+        height: 300px;
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 690px) {
+
+    body {
+        background-size: cover;
+    }
+
+    .welcome {
+        height: 400px;
+    }
+
+    .welcome h1 {
+        font-size: 3.5rem;
+    }
+
+    #testimonials {
+        height: 250px;
+        padding-top: 5%;
+    }
+
+    .carousel h2 {
+        font-size: 2rem;
+    }
+
+    .videos {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .videos {
+        width: 80%;
+    }
+}
